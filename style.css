@@ -12,10 +12,28 @@ body {
     background-color: #333333;
 }
 
-.container {
+.title {
     color: #ffffff;
     text-transform: uppercase;
     text-align: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.contact {
+    margin-top: 60px;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    font-weight: bold;
 }
 
 .background {
@@ -29,8 +47,8 @@ body {
 }
 
 h1 {
-    font-size: 80px;
-    margin-bottom: 60px;
+    font-size: 60px;
+    margin-bottom: 30px;
 }
 
 .sm a {
